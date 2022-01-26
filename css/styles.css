@@ -1,0 +1,67 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.list {
+  list-style: none;
+}
+
+/*Цвет основного текста #757575*/
+/*Вторичный цвет текста #212121 , rgba(255, 255, 255, 0.6)*/
+/*Белый цвет #FFFFFF*/
+/*Акцент #2196F3*/
+/*Основной цвет фона #FFFFFF*/
+/*Вторичный цвет фона #F5F4FA*/
+/*Вторичный цвет фона #2F303A*/
+
+/*Логотип*/
+.logo {
+  color: #000000;
+}
+.accent {
+  color: #2196f3;
+}
+
+/*Навигация сайта*/
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/*Контакты*/
+.contact-nav .link {
+  color: #757575;
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: #2196f3;
+}
+
+/*Герой*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+
+/*Секции*/
+.section-title {
+  color: #212121;
+}
+
+/*Преимущества*/
+.feature-list .title {
+  color: #212121;
+}
