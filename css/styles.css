@@ -108,3 +108,11 @@ body {
 .adress-nav .link {
   color: var(--footer-contacts-color);
 }
+.adress-nav .link-adress:hover,
+.adress-nav .link-adress:focus {
+  color: var(--accent-color);
+}
+.adress-nav .link:hover,
+.adress-nav .link:focus {
+  color: var(--accent-color);
+}
